@@ -1,21 +1,21 @@
 <h1 align="center">
-    <img src="/.github/assets/logo.svg"
+    <img src="/.github/assets/logo.png"
     width="200px"
     alt="Logo" />
 </h1>
 
 <h3 align="center">
-  ReactJS - upload.ai
+  Python - AIAgent
 </h3>
 
 <p align="center">
-  :sparkles: upload.ai Application using Vite, TypeScript, Tailwind CSS, ffmpeg.wasm, Vercel AI SDK, Label - Radix UI, Select - Radix UI, Separator - Radix UI, Slider - Radix UI, Lucide and consuming the features of the Node.js - upload.ai API
+  :sparkles: Python AIAgent application development, integration with OpenAI's GPT model, use of the CrewAI framework, creation of an agent for consuming duckduckgo data, creation of a frontend with the StreamLit framework, deployment via StreamLit cloud
 </p>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/osvaldokalvaitir/reactjs-upload-ai.svg?color=00A83A">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/osvaldokalvaitir/python-aiagent.svg?color=00A83A">
 
-  <img alt="GitHub language top" src="https://img.shields.io/github/languages/top/osvaldokalvaitir/reactjs-upload-ai.svg?color=00A83A">
+  <img alt="GitHub language top" src="https://img.shields.io/github/languages/top/osvaldokalvaitir/python-aiagent.svg?color=00A83A">
 
   <a href="https://kalvaitir.com/">
     <img alt="Made by Kalvaitir" src="https://img.shields.io/badge/made%20by-Kalvaitir-00A83A">
@@ -34,16 +34,14 @@
 
 ## :wrench: Install and run
 
-_ps: Before running the app, start the [Node.js - upload.ai](https://github.com/osvaldokalvaitir/nodejs-upload-ai) backend._
-
 Open terminal:
 
 ```sh
 # Clone this repo
-git clone https://github.com/osvaldokalvaitir/reactjs-upload-ai
+git clone https://github.com/osvaldokalvaitir/python-aiagent
 
 # Entry in folder
-cd reactjs-upload-ai
+cd python-aiagent
 
 # Install deps with npm or yarn
 npm install | yarn
