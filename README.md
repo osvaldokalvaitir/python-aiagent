@@ -9,7 +9,7 @@
 </h3>
 
 <p align="center">
-  :sparkles: Python AIAgent application development, integration with OpenAI's GPT model, use of the CrewAI framework, creation of an agent for consuming duckduckgo data, creation of a frontend with the StreamLit framework, deployment via StreamLit Cloud
+  :chart_with_upwards_trend: Python AIAgent application development, integration with OpenAI's GPT model, use of the CrewAI framework, creation of an agent for consuming duckduckgo data, creation of a frontend with the StreamLit framework, deployment via StreamLit Cloud
 </p>
 
 <p align="center">
