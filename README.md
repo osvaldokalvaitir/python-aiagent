@@ -9,7 +9,7 @@
 </h3>
 
 <p align="center">
-  :sparkles: Python AIAgent application development, integration with OpenAI's GPT model, use of the CrewAI framework, creation of an agent for consuming duckduckgo data, creation of a frontend with the StreamLit framework, deployment via StreamLit cloud
+  :sparkles: Python AIAgent application development, integration with OpenAI's GPT model, use of the CrewAI framework, creation of an agent for consuming duckduckgo data, creation of a frontend with the StreamLit framework, deployment via StreamLit Cloud
 </p>
 
 <p align="center">
@@ -43,12 +43,25 @@ git clone https://github.com/osvaldokalvaitir/python-aiagent
 # Entry in folder
 cd python-aiagent
 
-# Install deps with npm or yarn
-npm install | yarn
+# Create virtual environment
+python -m venv .venv
 
-# Launch the app with npm or yarn
-npm run dev | yarn dev
+# Activate virtual environment
+.venv\Scripts\activate  # For Windows
+source .venv/bin/activate  # For Linux or macOS
+
+# Install dependencies
+pip install -r webappStocks/requirements.txt
+
+# Set OpenAI API key
+# Ensure your OpenAI API key is correctly
+
+# Run the Streamlit app
+streamlit run webappStocks/crewai-stocks.py
+
 ```
+
+Click to learn more about the tools used: [OpenAI](https://github.com/osvaldokalvaitir/awesome/blob/main/src/machine-learning-platforms/openai.md) and StreamLit Cloud.
 
 ## :memo: License
 
